@@ -15,7 +15,7 @@
   --second-text-color: #757575;
 }
 body {
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   background-color: #ffffff;
   color: #212121;
@@ -27,17 +27,22 @@ header {
 /* Logo */
 .logo {
   color: #000000;
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
 }
 .part-logo {
   color: #2196f3;
-  font-family: Oleo Script;
 }
 /* Навигация */
 .site-nav a {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
   color: #212121;
   text-decoration: none;
 }
@@ -80,6 +85,7 @@ button {
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
+  cursor: pointer;
 }
 /* Особенности */
 .decision-title {
@@ -88,7 +94,6 @@ button {
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-bottom: 10px;
 }
 .decitsion-text {
   color: #757575;
@@ -136,7 +141,7 @@ button {
 }
 .footer-logo {
   color: #ffffff;
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -164,4 +169,17 @@ button {
 .footer-link:hover,
 .footer-link:focus {
   color: #2196f3;
+}
+.button {
+  background-color: #f5f4fa;
+  color: #212121;
+}
+.button:hover,
+.button:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
+.filters-title p {
+  color: #757575;
 }
