@@ -37,8 +37,6 @@ header {
 }
 /* Навигация */
 .site-nav a {
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -81,7 +79,6 @@ button {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
@@ -97,6 +94,10 @@ button {
 }
 .decitsion-text {
   color: #757575;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
 }
 /* Чем занимаемся */
 .about-title {
@@ -149,8 +150,6 @@ button {
   letter-spacing: 0.03em;
 }
 .footer p {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
@@ -158,8 +157,6 @@ button {
   color: #ffffff;
 }
 .footer-link {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
