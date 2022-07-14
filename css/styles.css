@@ -45,7 +45,7 @@ header {
   text-decoration: none;
 }
 .site-nav a:hover,
-.site-nav a:focus {
+.site-nav a:focus .site-nav a:active {
   color: #2196f3;
 }
 /* Контакты */
