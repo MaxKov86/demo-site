@@ -116,6 +116,7 @@ body {
 .header-nav-link:focus {
   color: var(--hover-color);
 }
+
 .current {
   color: var(--accent-color);
 }
@@ -126,6 +127,8 @@ body {
 }
 
 .header-contact-link {
+  display: flex;
+  align-items: center;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -140,25 +143,42 @@ body {
   color: var(--hover-color);
 }
 
+.icon-envelope {
+  margin-right: 10px;
+  background-position: center;
+  background-size: contain;
+}
+
+.icon-tel {
+  margin-right: 10px;
+  background-position: center;
+  background-size: contain;
+}
+
 .header-contact-item:not(:last-child) {
   margin-right: 50px;
 }
 
 /* Герой */
+
 .hero {
   text-align: center;
-  background-color: var(--third-background-color);
   color: #ffffff;
+
   padding-top: 200px;
   padding-bottom: 200px;
-}
+  max-width: 1600px;
+  margin: 0 auto;
 
-.hero > .container {
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/img-hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .hero-title {
-  max-width: 696px;
-
+  width: 696px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -169,6 +189,7 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+
 .btn {
   display: inline-block;
 
@@ -188,10 +209,12 @@ body {
   padding: 10px 32px;
   min-width: 200px;
 }
+
 button:hover,
 button:focus {
   background-color: #188ce8;
 }
+
 /* Особенности */
 
 .decition-list {
@@ -205,6 +228,7 @@ button:focus {
 .decition-item:not(:last-child) {
   margin-right: 30px;
 }
+
 .decision-title {
   font-weight: 700;
   font-size: 14px;
