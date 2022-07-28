@@ -143,20 +143,14 @@ body {
   color: var(--hover-color);
 }
 
-.icon-envelope {
-  margin-right: 10px;
-  background-position: center;
-  background-size: contain;
-}
-
-.icon-tel {
-  margin-right: 10px;
-  background-position: center;
-  background-size: contain;
-}
-
 .header-contact-item:not(:last-child) {
   margin-right: 50px;
+}
+
+.contact-icons {
+  margin-right: 10px;
+  background-position: center;
+  background-size: contain;
 }
 
 /* Герой */
