@@ -21,28 +21,36 @@
     <header class="header">
       <div class="container">
         <nav class="header-nav">
-          <a href="./index.html" lang="en" class="header-logo list link">
+          <a href="#" lang="en" class="header-logo list link">
             <span class="header-part-logo">Web</span>Studio</a
           >
           <ul class="header-nav-list list">
             <li class="header-nav-item">
-              <a href="index.html" class="header-nav-link link">Студия</a>
+              <a href="index.html" class="header-nav-link link">Студія</a>
             </li>
             <li class="header-nav-item">
-              <a href="./portfolio.html" class="header-nav-link link current">Портфолио</a>
+              <a href="./portfolio.html" class="header-nav-link link current">Портфоліо</a>
             </li>
-            <li class="header-nav-item"><a href="" class="header-nav-link link">Контакты</a></li>
+            <li class="header-nav-item"><a href="" class="header-nav-link link">Контакти</a></li>
           </ul>
         </nav>
 
         <ul class="header-contact-list list">
           <li class="header-contact-item">
-            <a href="mailto:info@devstudio.com" class="header-contact-link" lang="en"
-              >info@devstudio.com</a
+            <a href="mailto:info@devstudio.com" class="header-contact-link" lang="en">
+              <svg class="contact-icons" width="16" height="12">
+                <use href="./images/icons.svg#icon-envelope"></use>
+              </svg>
+              info@devstudio.com</a
             >
           </li>
           <li class="header-contact-item">
-            <a href="tel:+380961111111" class="header-contact-link">+38 096 111 11 11</a>
+            <a href="tel:+380961111111" class="header-contact-link">
+              <svg class="contact-icons" width="10" height="16">
+                <use href="./images/icons.svg#icon-smartphone"></use>
+              </svg>
+              +38 096 111 11 11</a
+            >
           </li>
         </ul>
       </div>
@@ -56,10 +64,10 @@
               <button class="filters-button" type="button">Все</button>
             </li>
             <li class="filters-button-item">
-              <button class="filters-button" type="button">Веб-сайты</button>
+              <button class="filters-button" type="button">Веб-сайти</button>
             </li>
             <li class="filters-button-item">
-              <button class="filters-button" type="button">Приложения</button>
+              <button class="filters-button" type="button">Додатки</button>
             </li>
             <li class="filters-button-item">
               <button class="filters-button" type="button">Дизайн</button>
@@ -96,7 +104,7 @@
                 <img src="./images/filter-img3.jpg" class="filters-image" alt="Ресторан Seafood" />
                 <div class="filters-item-text">
                   <h3 class="filters-title">Ресторан Seafood</h3>
-                  <p class="filters-text">Приложение</p>
+                  <p class="filters-text">Додаток</p>
                 </div>
               </a>
             </li>
@@ -104,7 +112,7 @@
               <a href="#" target="_blank" class="filters-link">
                 <img src="./images/filter-img4.jpg" class="filters-image" alt="Проект Prime" />
                 <div class="filters-item-text">
-                  <h3 class="filters-title">Проект Prime</h3>
+                  <h3 class="filters-title">Проєкт Prime</h3>
                   <p class="filters-text">Маркетинг</p>
                 </div>
               </a>
@@ -113,8 +121,8 @@
               <a href="#" target="_blank" class="filters-link">
                 <img src="./images/filter-img5.jpg" class="filters-image" alt="Проект Boxes" />
                 <div class="filters-item-text">
-                  <h3 class="filters-title">Проект Boxes</h3>
-                  <p class="filters-text">Приложение</p>
+                  <h3 class="filters-title">Проєкт Boxes</h3>
+                  <p class="filters-text">Додаток</p>
                 </div>
               </a>
             </li>
@@ -139,7 +147,7 @@
                   alt="Издание Limited Edition"
                 />
                 <div class="filters-item-text">
-                  <h3 class="filters-title">Издание Limited Edition</h3>
+                  <h3 class="filters-title">Видання Limited Edition</h3>
                   <p class="filters-text">Дизайн</p>
                 </div>
               </a>
@@ -158,7 +166,7 @@
                 <img src="./images/filter-img9.jpg" class="filters-image" alt="Growing Business" />
                 <div class="filters-item-text">
                   <h3 class="filters-title">Growing Business</h3>
-                  <p class="filters-text">Приложение</p>
+                  <p class="filters-text">Додаток</p>
                 </div>
               </a>
             </li>
@@ -170,14 +178,50 @@
     <!--Футер-->
     <footer class="footer">
       <div class="container">
-        <a class="footer-logo list link" href="" lang="en"
-          ><span class="footer-part-logo">Web</span>Studio</a
-        >
-        <address class="footer-address">
-          <p class="footer-address-text">г. Киев, пр-т Леси Украинки, 26</p>
-          <a class="footer-link list link" href="mailto:info@example.com">info@example.com</a>
-          <a class="footer-link list link" href="tel:+380991111111">+38 099 111 11 11</a>
-        </address>
+        <div>
+          <a class="footer-logo list link" href="" lang="en"
+            ><span class="footer-part-logo">Web</span>Studio</a
+          >
+          <address class="footer-address">
+            <p class="footer-address-text">м. Київ, пр-т Лесі Українки, 26</p>
+            <a class="footer-link list link" href="mailto:info@example.com">info@example.com</a>
+            <a class="footer-link list link" href="tel:+380991111111">+38 099 111 11 11</a>
+          </address>
+        </div>
+
+        <div class="footer-social-container">
+          <h2 class="footer-social-text">приєднуйтесь</h2>
+          <ul class="footer-social-list list">
+            <li class="footer-social-item">
+              <a href="" class="footer-social-link">
+                <svg class="footer-social-icon" width="20" height="20">
+                  <use href="./images/icons.svg#icon-instagram-2"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-social-item">
+              <a href="" class="footer-social-link">
+                <svg class="footer-social-icon" width="20" height="20">
+                  <use href="./images/icons.svg#icon-twitter2"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-social-item">
+              <a href="" class="footer-social-link">
+                <svg class="footer-social-icon" width="20" height="20">
+                  <use href="./images/icons.svg#icon-facebook2"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-social-item">
+              <a href="" class="footer-social-link">
+                <svg class="footer-social-icon" width="20" height="20">
+                  <use href="./images/icons.svg#icon-linkedin2"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </footer>
   </body>
