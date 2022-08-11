@@ -58,7 +58,7 @@
     <main>
       <section class="filters section">
         <div class="container">
-          <h1 hidden>Filters</h1>
+          <h1 class="visually-hidden">Filters</h1>
           <ul class="filters-button-list list">
             <li class="filters-button-item">
               <button class="filters-button" type="button">Все</button>
@@ -293,6 +293,19 @@
             </li>
           </ul>
         </div>
+        <form class="footer-form" autocomplete="off">
+          <p class="footer-form-text">Підпишіться на розсилку</p>
+          <div class="mail-field">
+            <input class="footer-input" type="email" name="email" placeholder="E-mail" />
+
+            <button type="submit" class="footer-submit">
+              Підписатися
+              <svg class="footer-submit-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-icon-send"></use>
+              </svg>
+            </button>
+          </div>
+        </form>
       </div>
     </footer>
     <script src="./js/modal.js"></script>
