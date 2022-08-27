@@ -1,5 +1,6 @@
 .features-list {
   display: flex;
+  flex-wrap: wrap;
 
   &__title {
     font-weight: 700;
@@ -7,6 +8,7 @@
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    text-align: center;
 
     margin-bottom: 10px;
   }
@@ -18,21 +20,23 @@
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
+    gap: 30;
   }
 }
 
 .features-list__item {
   display: block;
-  width: 270px;
+  width: 450px;
+  margin-bottom: 30px;
 
-  &:not(:last-child) {
-    margin-right: 30px;
-  }
+  // &:not(:last-child) {
+  //   margin-right: 30px;
+  // }
 }
 
 .icons-bg {
   display: flex;
-  width: 270px;
+  width: 450px;
   height: 120px;
   margin-bottom: 30px;
 

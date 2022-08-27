@@ -1,11 +1,12 @@
 .clients {
   background-color: var(--header-background-color);
+  width: 100%;
 
   &__title {
     margin-bottom: 50px;
     font-weight: 700;
-    font-size: 36px;
-    line-height: 42px;
+    font-size: 28px;
+    line-height: 33px;
     text-align: center;
     letter-spacing: 0.03em;
 
@@ -15,7 +16,7 @@
 
 .company-list {
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
   gap: 30px;
 
   &__icon {
@@ -23,11 +24,15 @@
   }
 }
 
+.company-list__item {
+  width: calc((100%-30px) / 2);
+}
+
 .company-list__link {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 170px;
+  width: 210px;
   height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
